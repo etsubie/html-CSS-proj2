@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Estate</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <section class="header-hero">
+     <section class="h-wrapper">
+        <div class="logo">
+            <div class="hwhite-gradient"></div>
+            <div class="logo-text"><a href="#">Homyz</a></div>
+            <div class="log-img"></div>
+        </div>
+        <input type="checkbox" id="checkbox">
+        <label for="checkbox" >
+            <div class="toggler">
+                 <div class="line"></div>
+                 <div class="line"></div>
+                 <div class="line"></div>
+             </div>
+         </label>
+        <div class="h-menu">
+            <a href="#residency">Residencies</a>
+            <a href="#value">Our Value</a>
+            <a href="#contact">Contact Us</a>
+            <a href="#getStarted">Get Started</a>
+            <button class="btn">Contact</button>
+        </div>
+    </section>
+    <section class="hero-wrapper">
+        <div class="white-gradient"></div>
+        <div class="h-left">
+            <div class="HeroText">Discover<br />Most Suitable<br />Property</div>
+            <div class="orange"></div>
+            <div class="secondaryText">Find a variety of properties that suit you very easilty<br />
+                Forget all difficulties in finding a resedence for you
+            </div>
+            <div class="search-box">
+                <div class="search-logo">
+                    <div class="white"></div>
+                </div>
+
+                <div class="blue"></div>
+                <input type="text">
+                <button class="btn">Search</button>
+            </div>
+            <div class="rate">
+                <div class="rateNo">9,000 <span class="plus">+</span>
+                    <br /><span class="secondaryText">Premium Product</span>
+                </div>
+                <div class="rateNo">5,000 <span class="plus">+</span>
+                    <br /><span class="secondaryText">Happy Customer</span>
+                </div>
+                <div class="rateNo">567 <span class="plus">+</span>
+                    <br /><span class="secondaryText">Awards Winnig</span>
+                </div>
+            </div>
+        </div>
+        <div class="h-right">
+            <img src="img/k.png" alt="house img">
+        </div>
+    </section>
+   </section>
+    <section class="marks">
+        <div class="prologis">
+            <div class="Img"><img src="img/prologists.png" alt=""></div>
+            <span class="bold">PRO</span>LOGIS.
+        </div>
+        <div class="american">
+            <div class="Img"><img src="img/american.png" alt=""></div>
+            AMERICAN TOWER'
+        </div>
+        <div class="equinix">
+            <div class="Img"><img src="img/equinix.png" alt=""></div>
+            EQUINIX
+        </div>
+        <div class="digital">
+            <div class="Img"><img src="img/digital.png" alt=""></div>
+            DIGITAL REALITY
+        </div>
+    </section>
+    <section class="resedencies-wrapper" id="residency">
+        <span class="orangeText">Best choices</span>
+        <span class="primaryText">Popular Residencies</span>
+        <div class="residencySample">
+            <div class="photos">
+                <img src="img/hh.jpg" alt="">
+                <span class="price"><span class="p-orange">$</span>66,353</span>
+                <span class="title">Asatti Garden City</span>
+                <span class="secondaryText">Lorem ipsum, dolor sit amet<br /> adipisicing elitmi impedit!
+                </span>
+            </div>
+            <div class="photos">
+                <img src="img/One UI Home.jpg" alt="">
+                <span class="price"><span class="p-orange">$</span>35,853</span>
+                <span class="title">Citralan Puri Serang</span>
+                <span class="secondaryText">Lorem ipsum, dolor sit amet<br /> adipisicing elitmi impedit!
+                </span>
+            </div>
+            <div class="photos">
+                <img src="img/h.jpg" alt="">
+                <span class="price"><span class="p-orange">$</span>47,043</span>
+                <span class="title">Aliva Priva Jardin</span>
+                <span class="secondaryText">Lorem ipsum, dolor sit amet<br /> adipisicing elitmi impedit!
+                </span>
+            </div>
+            <div class="photos">
+                <img src="img/hh.jpg" alt="">
+                <span class="price"><span class="p-orange">$</span>66,353</span>
+                <span class="title">Garden City</span>
+                <span class="secondaryText">Lorem ipsum, dolor sit amet<br /> adipisicing elitmi impedit!
+                </span>
+            </div>
+        </div>
+    </section>
+    <seciton class="value-wrapper" id="value">
+        <div class="v-left">
+            <img src="img/One UI Home.jpg" alt="">
+        </div>
+        <div class="v-right">
+            <span class="orangeText">Our Value</span>
+            <span class="primaryText">Value We Give to You</span>
+            <span class="secondaryText">We always needy to help by producingthe best services for you</br>
+                we beleviev a good blace to live can make your life better </span>
+            <div class="boxs">
+                <div class="box">
+                    <div class="heading">
+                        <button class="hide" onclick="Hide_a()">
+                            <div class="hide-pt">x</div>
+                        </button>
+                        <span class="title">Best interest rates on the market</span>
+                        <button class="show" onclick="Show_a()">
+                            <hr class="show-pt1">
+                            </hr>
+                            <hr class="show-pt2">
+                            </hr>
+                            <hr class="show-pt3">
+                            </hr>
+                        </button>
+                    </div>
+                    <p class="secondaryText" id="a"></p>
+                </div>
+                <div class="box">
+                    <div class="heading">
+                        <button class="hide" onclick="Hide_b()">
+                            <div class="hide-pt">x</div>
+                        </button>
+                        <span class="title">Prevent unstable prices</span>
+                        <button class="show" onclick="Show_b()">
+                            <hr class="show-pt1">
+                            </hr>
+                            <hr class="show-pt2">
+                            </hr>
+                            <hr class="show-pt3">
+                            </hr>
+                        </button>
+                    </div>
+                    <p class="secondaryText" id="b"></p>
+                </div>
+                <div class="box">
+                    <div class="heading">
+                        <button class="hide" onclick="Hide_c()">
+                            <div class="hide-pt">x</div>
+                        </button>
+                        <span class="title">Best price on the market</span>
+                        <button class="show" onclick="Show_c()">
+                            <hr class="show-pt1">
+                            </hr>
+                            <hr class="show-pt2">
+                            </hr>
+                            <hr class="show-pt3">
+                            </hr>
+                        </button>
+                    </div>
+                    <p class="secondaryText" id="c"></p>
+                </div>
+            </div>
+        </div>
+    </seciton>
+    <section class="contact-wrapper" id="contact">
+        <div class="c-left">
+            <span class="orangeText">Our Contact Us</span>
+            <span class="primaryText">Easy to contact us</span>
+            <span class="secondaryText">We always ready to help by providing the best services for you
+                we beleive a good blace to live your life better
+            </span>
+            <div class="call-chat">
+                <div class="contact">
+                    <div class="contact-number">
+                        <div class="call"></div>
+                        <span class="primaryText">Call<br /><span class="secondaryText">123 145 14</span></span>
+                    </div>
+                    <button class="contact-btn">call now</button>
+                </div>
+                <div class="contact">
+                    <div class="contact-number">
+                        <div class="call"></div>
+                        <span class="primaryText">Chat<br /><span class="secondaryText">123 145 14</span></span>
+                    </div>
+                    <button class="contact-btn">chat now</button>
+                </div>
+            </div>
+            <div class="video_call-chat">
+                <div class="contact">
+                    <div class="contact-number">
+                        <div class="call"></div>
+                        <span class="primaryText">video Call<br /><span class="secondaryText">123 145 14</span></span>
+                    </div>
+                    <button class="contact-btn">video call now</button>
+                </div>
+                <div class="contact">
+                    <div class="contact-number">
+                        <div class="call"></div>
+                        <span class="primaryText">Message<br /><span class="secondaryText">123 145 14</span></span>
+                    </div>
+                    <button class="contact-btn">message now</button>
+                </div>
+            </div>
+        </div>
+        <div class="c-right">
+            <img src="img/home.png" alt="">
+        </div>
+    </section>
+    <section class="getStarted-wrapper" id="getStarted">
+        <span class="primaryText">Get started with Homyz</span>
+        <span class="secondaryText">subcribe and find super attractive price quotes from us.</br>
+            Find your residence soon
+        </span>
+        <button class="get-btn">Get started</button>
+    </section>
+    <section class="footer-wrapper">
+        <div class="f-left">
+            <span class="primaryText">Homyz<div class="orange"></div></span>
+            <span class="secondaryText">Our vision is to make all people</br>the best place to live for them.</span>
+        </div>
+        <div class="f-right">
+            <span class="primaryText">Information</br><span class="secondaryText">123 New York,FL 5467,USA</span></span>
+            <div class="f-menu">
+                <a href="#">Property</a>
+                <a href="#">Services</a>
+                <a href="#">Product</a>
+                <a href="#">About Us</a>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>

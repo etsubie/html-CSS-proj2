@@ -1,0 +1,943 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/* header style */
+.h-wrapper {
+    display: flex;
+    justify-content: space-between;
+    background-color: #111111;
+    height: 50px;
+
+    width: 100%;
+    align-items: center;
+    padding: 25px 50px 25px 5px;
+    position: fixed;
+}
+
+.hwhite-gradient {
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.522);
+    filter: blur(50px);
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: 900;
+    cursor: pointer;
+    display: flex;
+}
+
+.logo a {
+    color: white;
+    text-decoration: none;
+}
+
+.log-img {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+
+    background-color: rgb(88, 90, 240);
+    position: relative;
+    left: -7px;
+    z-index: -1;
+}
+
+.h-menu {
+    display: flex;
+    justify-content: space-around;
+    gap: 35px;
+    align-items: center;
+}
+
+.h-menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.btn {
+    background-color: rgb(34, 95, 191);
+    color: white;
+    border-radius: 7px;
+    font-size: 15px;
+    display: flex;
+
+    align-items: center;
+    padding: 10px 25px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+
+/* hero style */
+
+.hero-wrapper {
+    display: flex;
+    justify-content: space-around;
+    background-color: #111111;
+    padding: 65px 0px;
+}
+
+.white-gradient {
+    height: 200px;
+    width: 250px;
+    background-color: rgba(255, 255, 255, 0.522);
+    filter: blur(50px);
+}
+
+.h-left {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    position: relative;
+    left: -190px;
+}
+
+.HeroText {
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+
+    position: relative;
+    bottom: -75px;
+    z-index: 99;
+}
+
+.orange {
+    background-color: rgb(252, 163, 55);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+
+    position: relative;
+    top: -175px;
+    left: 205px;
+    z-index: 1;
+}
+
+.secondaryText {
+    color: rgb(174, 171, 171);
+}
+
+.search-box {
+    display: flex;
+    background-color: white;
+    justify-content: space-around;
+    align-items: center;
+    padding: 8px;
+}
+
+.search-logo {
+    background-color: rgb(34, 95, 191);
+    height: 17px;
+    width: 17px;
+
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.white {
+    background-color: white;
+    height: 5px;
+    width: 5px;
+    border-radius: 50px;
+}
+
+.blue {
+    background-color: rgb(34, 95, 191);
+    height: 10px;
+    width: 5px;
+
+    border-radius: 50px;
+    position: relative;
+    left: -28px;
+    top: 7px;
+}
+
+.search-box input {
+    border: none;
+}
+
+.rate {
+    display: flex;
+    justify-content: space-around;
+}
+
+.rateNo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.plus {
+    color: orange;
+}
+
+.rateNo .secondaryText {
+    font-size: 12px;
+}
+
+/* h-right */
+.h-right {
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border: solid 5px rgb(70, 68, 68);
+
+    margin-top: 30px;
+    width: 35%;
+    position: relative;
+    left: -100px;
+}
+
+.h-right img {
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    height: 100%;
+    width: 100%;
+}
+
+/*  */
+.marks {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.Img {
+    height: 100%;
+    width: 100%;
+}
+
+.Img img {
+    width: 80px;
+}
+
+.prologis img {
+    position: relative;
+    top: 15px;
+}
+
+.american img,
+.equinix img,
+.digital img {
+    height: 50px;
+    position: relative;
+    top: 25px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.prologis {
+    color: gray;
+    font-style: italic;
+    font-size: 25px;
+}
+
+.american {
+    font-size: 15px;
+    font-weight: bold;
+    font-family: cursive;
+    color: gray;
+}
+
+.equinix {
+    letter-spacing: 3px;
+    font-family: serif;
+    color: rgb(91, 89, 89);
+    font-weight: bold;
+}
+
+.digital {
+    color: gray;
+}
+
+/* residencies */
+.resedencies-wrapper {
+    padding: 40px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.orangeText {
+    color: orange;
+    font-size: 30px;
+    font-weight: bold;
+
+    padding-left: 40px;
+    position: relative;
+    top: 20px;
+}
+
+.primaryText {
+    font-size: 32px;
+    color: rgb(19, 19, 71);
+    font-weight: bold;
+    padding-left: 40px;
+}
+
+.residencySample {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.photos {
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    padding: 0px 10px 10px 10px;
+
+    border-radius: 15px;
+    gap: 18px;
+    transition: 0.7s;
+}
+
+.photos:hover {
+    cursor: pointer;
+    transform: scale(1.09);
+    background-color: rgba(177, 186, 206, 0.15);
+}
+
+.photos img {
+    border-radius: 15px;
+    height: 150px;
+    width: 200px;
+    position: relative;
+}
+
+.price {
+    color: gray;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.p-orange {
+    color: orange;
+}
+
+.title {
+    color: rgb(35, 35, 90);
+    font-size: 23px;
+    font-weight: bold;
+}
+
+/* vlaue wrapper */
+.value-wrapper {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 55px;
+}
+
+/* v-left */
+.v-left {
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border: solid 5px rgb(228, 222, 222);
+    width: 40%;
+}
+
+.v-left img {
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    height: 100%;
+    width: 100%;
+}
+
+/* v-right */
+.v-right {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 40%;
+}
+
+.v-right .orangeText,
+.v-right .primaryText {
+    padding-left: 0px;
+}
+
+.heading .title {
+    font-size: 18px;
+}
+
+.boxs {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.box {
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+    padding: 15px;
+    border: solid rgb(202, 201, 201) 0.2px;
+    box-shadow: 1px 1px 1px 1px rgba(105, 103, 103, 0.2);
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hide,
+.show {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    border: none;
+    height: 35px;
+    width: 35px;
+    background-color: rgba(201, 210, 218, 0.522);
+}
+
+.hide-pt {
+    height: 15px;
+    width: 15px;
+    background-color: rgb(55, 79, 189);
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+
+.show {
+    flex-direction: column;
+}
+
+.show-pt1,
+.show-pt2,
+.show-pt3 {
+    border: none;
+    height: 2px;
+    background-color: rgb(6, 6, 69);
+}
+
+.show-pt1 {
+    width: 10px;
+}
+
+.show-pt2 {
+    width: 6px;
+    position: relative;
+    top: -1px;
+}
+
+.show-pt3 {
+    width: 4px;
+    position: relative;
+    top: -1px;
+}
+
+/* contact wrapper */
+
+.contact-wrapper {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 65px;
+}
+
+/* c-left */
+
+.c-left {
+    display: flex;
+    flex-direction: column;
+    width: 37%;
+    gap: 25px;
+}
+
+.c-left .orangeText,
+.c-left .primaryText {
+    padding-left: 0px;
+}
+
+.call-chat,
+.video_call-chat {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.video_call-chat {
+    position: relative;
+    top: -12px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    width: 100%;
+    border: solid lightgray 0.5px;
+    padding: 10px;
+}
+
+.contact:hover {
+    transition: 0.7s;
+    transform: scale(1.08);
+}
+
+.contact-number {
+    display: flex;
+    gap: 10px;
+}
+
+.contact .primaryText {
+    font-size: 19px;
+}
+
+.contact .secondaryText {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.call {
+    border: none;
+    height: 35px;
+    width: 35px;
+    background-color: rgba(192, 205, 216, 0.522);
+}
+
+.contact-btn {
+    background-color: rgba(192, 205, 216, 0.522);
+    border: none;
+    padding: 10px 0px;
+
+    font-weight: bold;
+    font-size: 14px;
+    color: rgb(34, 65, 188);
+    border-radius: 5px;
+}
+
+.contact-btn:hover {
+    cursor: pointer;
+    transition: 0.3s;
+    transform: scale(1.03);
+    color: white;
+    background-color: rgb(34, 65, 188);
+}
+
+/* c-right */
+
+.c-right {
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+.c-right img {
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    height: 100%;
+    width: 100%;
+}
+
+/* get started wrapper */
+.getStarted-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+
+    margin: 40px 108px;
+    flex-direction: column;
+    gap: 20px;
+    background-color: rgb(34, 65, 188);
+    border-radius: 10px;
+}
+
+.getStarted-wrapper .primaryText {
+    color: white;
+}
+
+.getStarted-wrapper .secondaryText {
+    color: rgb(223, 222, 221);
+    text-align: center;
+}
+
+.get-btn {
+    background-color: rgba(125, 107, 174, 0.5);
+    border-color: white;
+    border-radius: 7px;
+    color: white;
+    padding: 8px 16px;
+}
+
+.get-btn:hover {
+    cursor: pointer;
+    transition: 0.7s;
+    transform: scale(1.12);
+}
+
+/* footer */
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 108px;
+    margin-bottom: 20px;
+}
+
+.f-left .secondaryText {
+    position: relative;
+    top: -8px;
+}
+
+.f-right .secondaryText {
+    font-size: 14px;
+    font-weight: normal;
+    position: relative;
+    top: -10px;
+}
+
+.f-left .primaryText,
+.f-right .primaryText {
+    padding-left: 0px;
+}
+
+.f-left .primaryText {
+    z-index: 99;
+    color: rgb(17, 54, 176);
+}
+
+.f-left,
+.f-right {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.f-left .orange {
+    height: 24px;
+    width: 24px;
+    top: -40px;
+
+    left: 86px;
+    position: relative;
+    z-index: -1;
+}
+
+.f-menu {
+    display: flex;
+    gap: 15px;
+}
+
+.f-menu a {
+    color: rgb(32, 31, 31);
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.header-hero {
+    position: relative;
+    z-index: 100;
+}
+
+.marks,
+.resedencies-wrapper,
+.value-wrapper,
+.contact-wrapper,
+.getStarted-wrapper,
+.footer-wrapper {
+    position: relative;
+    z-index: 1;
+}
+
+@media(max-width:1440px) {
+
+    .getStarted-wrapper,
+    .footer-wrapper {
+        margin-left: 120px;
+        margin-right: 120px;
+    }
+
+}
+
+@media(max-width:1024px) {
+
+    .getStarted-wrapper,
+    .footer-wrapper {
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+
+    .v-right,
+    .box {
+        width: 375px;
+    }
+}
+
+@media(max-width:768px) {
+    .h-wrapper{
+        padding: 25px 20px 25px 2px;
+    }
+    .h-menu {
+        position: relative;
+        left: -20px;
+    }
+
+    .h-menu a {
+        font-size: 16px;
+    }
+
+    .blue {
+        left: -10px;
+    }
+
+    .h-left {
+        left: -155px;
+    }
+
+    .h-right {
+        width: 45%;
+        left: -45px;
+    }
+
+    .HeroText {
+        font-size: 49px;
+    }
+
+    .orange {
+        height: 43px;
+        width: 43px;
+        left: 167px;
+        top: -140px;
+    }
+
+    .v-right,
+    .box {
+        width: 360px;
+    }
+
+    .heading .title {
+        font-size: 16px;
+    }
+
+    .contact .primaryText {
+        font-size: 16px;
+    }
+
+    .secondaryText {
+        font-size: 14px;
+    }
+
+    .contact .secondaryText,
+    .contact-btn,
+    .f-right .secondaryText {
+        font-size: 12px;
+    }
+
+    .c-right,
+    .c-left {
+        width: 39%;
+    }
+
+    .getStarted-wrapper,
+    .footer-wrapper {
+        margin-left: 45px;
+        margin-right: 45px;
+    }
+
+    .f-menu a {
+        font-size: 15px;
+    }
+}
+
+@media(max-width:425px) {
+    .h-menu {
+        flex-direction: column;
+        background-color: white;
+        border-radius: 20px;
+        gap: 15px;
+        box-shadow: 1px 1px 1px 1px rgba(105, 103, 103, 0.2);
+
+        visibility: hidden;
+        padding: 20px;
+        top: 123px;
+        left: -40px;
+        z-index: 1;
+    }
+
+    .h-menu a {
+        color: black;
+        font-size: 15px;
+    }
+
+    .btn {
+        padding: 5px 15px;
+    }
+
+    .line {
+        width: 26px;
+        height: 3px;
+        background: #fefefe;
+        margin: 6px 50px;
+
+        display: block;
+        cursor: pointer;
+        position: relative;
+        left: 115px;
+        z-index: 10;
+    }
+
+    #checkbox:checked~.h-menu {
+        visibility: visible;
+
+    }
+
+    .hero-wrapper,
+    .value-wrapper,
+    .contact-wrapper,
+    .footer-wrapper,
+    .resedencies-wrapper,
+    .marks {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .white-gradient {
+        position: relative;
+        left: -100px;
+    }
+
+    .h-left {
+        left: 0px;
+        top: -200px;
+
+    }
+
+    .search-box {
+        width: 310px;
+    }
+
+    .blue {
+        left: -17px;
+    }
+
+    .rate {
+        gap: 15px;
+    }
+
+    .h-right {
+        width: 69%;
+        top: -145px;
+        left: 0px;
+    }
+
+    .hero-wrapper {
+        padding-bottom: 0px;
+    }
+
+    .marks {
+        gap: 30px;
+    }
+
+    .american img,
+    .equinix img,
+    .digital img {
+        top: 0px;
+    }
+
+    .resedencies-wrapper .orangeText {
+        left: -62px;
+    }
+
+    .v-left {
+        width: 75%;
+        height: 400px;
+    }
+
+    .box,
+    .v-right {
+        width: 320px;
+    }
+
+    .heading .title {
+        text-align: center;
+    }
+
+    .show,
+    .hide {
+        width: 30px;
+        height: 30px;
+    }
+
+    .c-right,
+    .c-left {
+        width: 75%;
+    }
+
+    .c-right {
+        position: relative;
+        top: 30px;
+    }
+
+    .getStarted-wrapper,
+    .footer-wrapper {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .getStarted-wrapper .primaryText {
+        text-align: center;
+    }
+
+    .f-menu a {
+        font-size: 13px;
+    }
+
+    .f-left,
+    .f-right {
+        align-items: center;
+    }
+}
+
+#checkbox {
+    position: relative;
+    left: 185px;
+    visibility: hidden;
+
+}
+
+@media(max-width:375px) {
+    .line{
+        left: 152px;
+    }
+}
+
+@media(max-width:320px) {
+    .box,
+    .v-right {
+        width: 200px
+    }
+
+    .line {
+        left: 150px;
+    }
+
+    .h-menu {
+        left: -22px;
+    }
+}
